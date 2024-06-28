@@ -47,7 +47,7 @@ def clasificar_productos():
             archivo_texto.write(f"- {producto}\n")
         archivo_texto.write("\nProductos de Calzado:\n")
         for producto in productos_calzado:
-            archivo_texto.write(f"- {producto}\n")
+            archivo_texto.write(f"{producto}\n")
 
     print("El archivo de clasificación de productosha sido generado con exito.")
 
